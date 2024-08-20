@@ -45,7 +45,7 @@ def validate(opciones, eleccion):
 Importante mencionar que la utilización del operador ```not in``` nos permite determinar si un elemento no es parte de una lista.
 
 ## 2. level.py
-Se crea el programa ```level.py``` que incluya la función ```choose_level()``` que permite escoger el nivel de dificultad de la pregunta a realizar. Esa función debe aceptar como argumentos el número de la pregunta, y la cantidad de preguntas por nivel que puede ser 1, 2 o 3.
+Se crea el programa ```level.py```, el cual incluye la función ```choose_level()``` que permite escoger el nivel de dificultad de la pregunta a realizar. Esa función debe aceptar como argumentos el número de la pregunta, y la cantidad de preguntas por nivel que puede ser 1, 2 o 3.
 El funcionamiento debe ser el siguiente:
 ● Si se eligen 2 preguntas por nivel: Las preguntas n°1 y n°2 deben ser de nivel de dificultad básicas, las preguntas n°3 y n°4 de nivel intermedio y las preguntas n°5 y n°6 avanzadas.
 ● En cambio, si se escogen 3 preguntas por nivel, la 1,2 y 3 deben ser básicas,  4,5,6 intermedias y 7, 8 y 9 avanzadas.
