@@ -11,6 +11,8 @@ El proyecto está dividido en varios módulos, cada uno cumpliendo una funcional
 - **level.py**: Permite al usuario elegir el nivel de dificultad de las preguntas.
 - **shuffle.py**: Mezcla las alternativas de una pregunta de forma aleatoria.
 - **question.py**: Selecciona una pregunta aleatoria de un nivel específico, asegurando que no se repita durante la ejecución.
+- **preguntas.py**: en este archivo se definen 3 diccionarios: preguntas_basicas, preguntas_intermedias y preguntas_avanzadas. Cada diccionario contiene 3 preguntas y sus correspondientes alternativas. Cada pregunta es otro diccionario que posee un enunciado (un string) y alternativas en forma de una lista anidada.
+- Cada alternativa es una lista de dos elementos, siendo el primero el equivalente al texto de la alternativa y el segundo un indicador 0 o 1, donde 1 indica que es la alternativa correcta.
 - **print_preguntas.py**: Imprime las preguntas y sus alternativas en un formato adecuado.
 - **verify.py**: Verifica si la respuesta seleccionada por el usuario es correcta.
 - **main.py**: Esqueleto del programa que integra todas las funcionalidades y gestiona la lógica de la trivia.
