@@ -1,5 +1,5 @@
 """
-Este módulo define un conjunto de preguntas categorizadas en diferentes niveles de dificultad
+En este módulo define un conjunto de preguntas categorizadas en diferentes niveles de dificultad
 para ser utilizadas en una trivia de Python. Cada pregunta incluye un enunciado y varias 
 alternativas de respuesta, donde una o más son correctas.
 
